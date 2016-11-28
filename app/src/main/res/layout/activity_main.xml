@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/pounds"
+                android:layout_weight="1"
+                android:hint="@string/pounds"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/feet"
+                android:layout_weight="1"
+                android:hint="@string/feet"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/inches"
+                android:layout_weight="1"
+                android:hint="@string/inches"/>
+
+            <Button
+                android:textSize="12sp"
+                android:text="@string/calculate"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/enter_button"
+                android:layout_weight="1"
+                android:onClick="getBMI"/>
+        </LinearLayout>
+</LinearLayout>

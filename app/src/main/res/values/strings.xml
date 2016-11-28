@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BMICalculator</string>
+    <string name="pounds">Pounds</string>
+    <string name="feet">Feet</string>
+    <string name="inches">Inches</string>
+    <string name="calculate">Calculate</string>
+</resources>
